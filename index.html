@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pixabay api search</title>
+    <script type="module" crossorigin src="/goit-advancedjs-hw-04/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-04/assets/vendor-BMHzDZyJ.js">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-04/assets/vendor-DumFYO8Z.css">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-04/assets/index-CUOm-zaS.css">
+  </head>
+  <body>
+    <main>
+      <form class="form">
+        <input
+          type="text"
+          name="user_query"
+          class="search-field js-field"
+          placeholder="Search images..."
+        />
+        <button class="search-btn js-button" type="submit">Search</button>
+      </form>
+
+      <ul class="gallery js-gallery"></ul>
+      <div class="btn-wrapper">
+        <button type="button" class="btn-load-more">Load more</button>
+      </div>
+      <div class="loader-wrapper"><span class="loader"></span></div>
+    </main>
+
+  </body>
+</html>
